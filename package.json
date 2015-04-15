@@ -1,0 +1,36 @@
+{
+  "name": "webgl-earth-tutorial",
+  "version": "0.0.0",
+  "description": "WebGL Earth tutorial.",
+  "main": "scripts/main.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5"
+  },
+  "devDependencies": {
+    "babel": "*",
+    "browserify": "*",
+    "babelify": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "compile": "browserify src/scripts/main.js -t babelify --outfile public/scripts/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/flux"
+  },
+  "keywords": [
+    "babel",
+    "es6",
+    "browserify",
+    "babelify",
+    "express",
+    "body-parser used by express"
+  ],
+  "author": "Lukasz Wiacekn",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
